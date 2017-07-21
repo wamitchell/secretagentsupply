@@ -1,0 +1,109 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+/*header*/
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+header h2 {
+    padding: 0.66rem 1rem;
+    color: white;
+}
+
+#logo {
+    height: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+
+/*main*/
+#headcontainer {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    height: 25rem;
+    background-size: cover;
+}
+
+#headtitle {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 9rem;
+    display: inline-block;
+    z-index: 20;
+    padding: 2rem 3rem;
+    width: 20rem;
+    
+}
+
+#headtitle h1 {
+    font-size: 2rem;
+    padding-top: 0.25rem;
+    
+}
+
+nav {
+    color: white;
+    background-color: firebrick;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75rem 0rem;
+}
+
+#productscontainer {
+    margin: 3rem 0rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    width: 30%;
+    border: solid black 4px;
+}
+
+.product img {
+    height: 9rem;
+    width: 9rem;
+    padding: 2rem;
+}
+
+.product p {
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+#infocontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.info {
+    width: 30%;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+
+/*footer*/
+footer {
+    color: white;
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
