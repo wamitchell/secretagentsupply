@@ -62,23 +62,31 @@ nav ul {
     margin: 3rem 0rem;
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .product {
     width: 30%;
     border: solid black 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
 
 .product img {
-    height: 9rem;
+    height: auto;
     width: 9rem;
-    padding: 2rem;
+    margin: 2rem;
 }
 
 .product p {
     color: white;
     background-color: black;
-    padding: 0.5rem;
+    padding: 0.5rem 0rem;
+    width: 100%;
+    text-align: center;
+    
 }
 
 #infocontainer {
@@ -88,7 +96,7 @@ nav ul {
 }
 
 .info {
-    width: 30%;
+    width: 35%;
 }
 
 .title {
